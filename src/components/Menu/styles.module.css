@@ -1,0 +1,11 @@
+.Menu {
+ @apply flex gap-2;
+}
+
+.Menu.row {
+ @apply flex-row;
+}
+
+.Menu.column {
+ @apply flex-col;
+}

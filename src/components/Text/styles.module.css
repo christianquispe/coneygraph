@@ -1,0 +1,8 @@
+.Text.withBox {
+ @apply leading-normal relative flex justify-start items-center text-white z-10;
+}
+
+.Text.withBox::before {
+ content: "";
+ @apply inline-block absolute bottom-[5%] h-full w-[calc(100%+2rem)] bg-primary -z-[1] -rotate-2 -ml-8;
+}

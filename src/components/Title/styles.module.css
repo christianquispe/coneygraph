@@ -1,0 +1,23 @@
+.Title {
+ @apply uppercase text-primary font-black;
+}
+
+.Title.xxl {
+ @apply text-6xl;
+}
+
+.Title.h1 {
+ @apply text-4xl;
+}
+
+.Title.h2 {
+ @apply text-3xl;
+}
+
+.Title.primary {
+ @apply text-primary;
+}
+
+.Title.white {
+ @apply text-white;
+}

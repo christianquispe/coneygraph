@@ -1,0 +1,11 @@
+.Drawer {
+  @apply fixed z-40 top-0 right-0 translate-x-full h-screen w-full duration-300 overflow-auto;
+}
+
+.DrawerActive {
+  @apply translate-x-0;
+}
+
+.Header {
+  @apply relative flex items-center justify-between py-[14px] px-8 bg-white shadow-md font-semibold;
+}

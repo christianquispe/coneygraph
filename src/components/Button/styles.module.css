@@ -1,0 +1,12 @@
+.Button {
+ @apply py-3 px-5;
+}
+
+.Button.default {
+ @apply border border-primary;
+}
+
+.Button.primary {
+ @apply border border-primary;
+ @apply bg-primary text-white rounded-lg;
+}

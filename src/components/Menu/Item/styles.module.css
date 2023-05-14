@@ -1,0 +1,11 @@
+.MenuItem {
+ @apply py-2 px-3 bg-white flex justify-between items-center cursor-pointer gap-1;
+}
+
+.MenuItemDisabled {
+ @apply pointer-events-none;
+}
+
+.MenuItemActive {
+ @apply bg-[#E8F9F6];
+}

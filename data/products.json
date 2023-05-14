@@ -1,0 +1,23 @@
+[
+ {
+  "altImg": "Roll up banners",
+  "img": "/hoodies.jpg",
+  "name": "Banner Roll-Up",
+  "slug": "roll-up-banners",
+  "description": "Expositor publicitario autosostenible formado por una lona lisa de tela u otro material, en la que se imprime el contenido, y una base, en la que se puede enrollar la lona para hacer más fácil su transporte."
+ },
+ {
+  "altImg": "Roll up banners",
+  "img": "/hoodies.jpg",
+  "name": "Banner Roll-Up 2",
+  "slug": "roll-up-banners-2",
+  "description": "Expositor publicitario autosostenible y auto enrollable. Usualemente usados en oficinas, comercios y eventos."
+ },
+ {
+  "altImg": "Roll up banners",
+  "img": "/hoodies.jpg",
+  "name": "Banner Roll-Up 3",
+  "slug": "roll-up-banners-3",
+  "description": "Expositor publicitario autosostenible formado por una lona lisa de tela u otro material, en la que se imprime el contenido, y una base, en la que se puede enrollar la lona para hacer más fácil su transporte."
+ }
+]
