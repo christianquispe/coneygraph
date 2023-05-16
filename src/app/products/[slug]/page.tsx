@@ -19,7 +19,21 @@ export default function ProductDetails({ params }: any) {
 
  return (
   <Container>
-   <section className="grid grid-cols-2 gap-14">
+   <section className="desktop:grid desktop:grid-cols-2 gap-14 py-10">
+    <div className="px-4 py-8 flex flex-col gap-4 items-start desktop:order-1">
+     <Title level="1" size="xxl" className="leading-normal">
+      <Text as="span" withBox className="inline-block leading-normal">
+       {firstWord}
+      </Text>
+      {restWord}
+     </Title>
+     <Text as="p" className="text-xl">
+      {product.description}
+     </Text>
+     <Button type="primary" className="uppercase">
+      Ver productos entregados
+     </Button>
+    </div>
     <div>
      <div className="max-w-[340px] mx-auto">
       <Image
@@ -29,16 +43,6 @@ export default function ProductDetails({ params }: any) {
        height={1000}
       />
      </div>
-    </div>
-    <div className="flex flex-col gap-4 items-start">
-     <Title level="1" size="xxl" className="leading-normal">
-      <Text as="span" withBox className="inline-block leading-normal">
-       {firstWord}
-      </Text>
-      {restWord}
-     </Title>
-     <Text as="p" className="text-xl">{product.description}</Text>
-     <Button type="primary" className="uppercase">Ver productos entregados</Button>
     </div>
    </section>
   </Container>

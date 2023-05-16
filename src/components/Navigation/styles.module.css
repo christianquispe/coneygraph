@@ -1,6 +1,6 @@
 .Navigation {
  @apply flex justify-center items-center py-7 gap-4;
- @apply tablet:justify-between tablet:py-14;
+ @apply tablet:justify-between tablet:py-10;
 }
 
 .Logo {

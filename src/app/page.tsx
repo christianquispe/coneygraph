@@ -8,10 +8,6 @@ export default function Home() {
    <Hero />
    <CategoriesSlides />
    <ProductsSection />
-   <br />
-   <br />
-   <br />
-   <br />
   </main>
  );
 }

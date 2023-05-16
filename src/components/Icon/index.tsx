@@ -24,6 +24,8 @@ export enum IconIds {
  mapLocation = "map-location",
  burger = "burger",
  largeRightArrow = "large-right-arrow",
+ facebook = "facebook",
+ instagram = "instagram",
 }
 
 interface IconProps extends SVGProps<SVGSVGElement> {

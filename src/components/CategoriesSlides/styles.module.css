@@ -1,9 +1,13 @@
 .CategoriesSlides {
- @apply bg-primary text-white w-full overflow-hidden py-4 px-4;
+ @apply overflow-hidden;
+}
+
+.wraperList {
+ @apply bg-primary text-white w-fit;
 }
 
 .categories {
- @apply flex flex-nowrap gap-20 animate-infinite-slides;
+ @apply flex flex-nowrap gap-20 py-4 px-4 animate-infinite-slides;
 }
 
 .category {

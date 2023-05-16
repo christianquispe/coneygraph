@@ -1,6 +1,6 @@
 .Wrapper {
  @apply grid tablet:grid-cols-2 text-primary tablet:pl-8 desktop:pl-16;
- @apply bg-[#F4F6F5] rounded-[2rem];
+ @apply desktop:bg-[#F4F6F5] rounded-[2rem];
 }
 
 .TextWithBox {

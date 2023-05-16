@@ -14,6 +14,10 @@
  @apply text-3xl;
 }
 
+.Title.h3 {
+ @apply text-2xl;
+}
+
 .Title.primary {
  @apply text-primary;
 }

@@ -1,4 +1,5 @@
 import { createElement } from "react";
+import { classnames } from "@/utils/classnames";
 
 import styles from "./styles.module.css";
 
@@ -20,12 +21,13 @@ export default function Title({
  color = "default",
 }: TitleProps) {
  const tag = `h${level}`;
+ const sizeClass = size === "xxl" ? size : "h"+size
 
  return createElement(
   tag,
   {
    className: `${styles.Title} ${
-    size ? styles[size] : styles[tag]
+    size ? styles[sizeClass] : styles[tag]
    } ${styles[color]} ${className}`,
   },
   children

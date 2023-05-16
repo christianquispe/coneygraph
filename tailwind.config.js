@@ -26,11 +26,11 @@ module.exports = {
    keyframes: {
     "infinite-slides": {
      from: { transform: "translateX(0)" },
-     to: { transform: "translateX(-100%)" },
+     to: { transform: "translateX(-100%) translateX(100vw)" },
     },
    },
    animation: {
-    "infinite-slides": "infinite-slides 10s linear infinite alternate",
+    "infinite-slides": "infinite-slides 20s linear infinite alternate",
    },
   },
  },
