@@ -1,0 +1,19 @@
+.titleJobsDone {
+  @apply text-center
+}
+
+.boxJobsDone {
+  @apply flex gap-8 flex-col
+}
+
+.publishedJobs {
+  @apply flex gap-4
+}
+
+.imagesJobs {
+  @apply w-80
+}
+
+.cardsJobsDone {
+  @apply flex text-center items-center flex-col gap-4
+}

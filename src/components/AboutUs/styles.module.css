@@ -1,0 +1,11 @@
+.AboutUs {
+  @apply py-20;
+}
+
+.img {
+  @apply w-20;
+}
+
+.wrapper {
+  @apply flex items-center gap-4;
+}
