@@ -1,0 +1,7 @@
+.CatalogSection {
+  @apply flex justify-center py-10
+}
+
+.linkToCatalog {
+  @apply flex justify-center gap-3
+}
