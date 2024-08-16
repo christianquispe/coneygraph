@@ -3,7 +3,7 @@ import Container from "../Container";
 import Title from "../Title";
 import styles from "./styles.module.css";
 
-const jobsData = [
+export const jobsData = [
   {
     title: "roll Screen",
     img: "/roll-screem.jpg",
