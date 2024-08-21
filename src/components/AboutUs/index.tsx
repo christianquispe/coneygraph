@@ -4,83 +4,60 @@ import Text from "../Text";
 import Title from "../Title";
 import styles from "./styles.module.css";
 
+interface AboutUsCardProps {
+  title: string;
+  description: string;
+  img: string;
+  icon: string;
+  isImgLeft?: boolean;
+}
+
+const AboutUsCard: React.FC<AboutUsCardProps> = (props) => {
+  return (
+    <div className={styles.wrapper}>
+      <img className={styles.icon} src={props.icon} alt="" />
+      <div className="pb-3">
+        <Title level="3">{props.title}</Title>
+        <Text as="p">{props.description}</Text>
+      </div>
+      <img
+        className={`${styles.img} ${props.isImgLeft ? "lg:-order-1" : ""}`}
+        src={props.img}
+        alt=""
+      />
+    </div>
+  );
+};
+
 export default function AboutUs() {
   return (
     <section className={styles.AboutUs}>
       <Container>
-        <div className={styles.wrapper}>
-          <img
-            className={styles.img}
-            src="https://www.gigantografiaswilson.com/wp-content/uploads/2023/06/1ca.png"
-            alt=""
+        <div className={styles.wrapperList}>
+          <AboutUsCard
+            img="https://www.gigantografiaswilson.com/wp-content/uploads/2023/06/imagen-de-portada-de-calidad.png"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Donec Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Donec Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Donec"
+            title="Calidad 1"
+            icon={
+              "https://www.gigantografiaswilson.com/wp-content/uploads/2023/06/1ca.png"
+            }
           />
-          <div>
-            <Title className="pb-5" level="3">
-              Calidad
-            </Title>
-            <Text as="p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum id
-              odio animi nihil, aut cumque beatae esse. Non repellat libero a
-              facere, quas soluta dolor? Quidem aut ducimus asperiores?
-              Vero?Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-              magni omnis autem! A rerum adipisci quae distinctio eos blanditiis
-              eum velit voluptatum dignissimos sit? Voluptatibus labore enim
-              unde? Quia, modi!Lorem
-            </Text>
-          </div>
-          <img
-            src="https://www.gigantografiaswilson.com/wp-content/uploads/2023/06/imagen-de-portada-de-calidad.png"
-            alt=""
+          <AboutUsCard
+            img="https://www.gigantografiaswilson.com/wp-content/uploads/2023/06/imagen-de-portada-de-calidad.png"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Donec Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Donec Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Donec"
+            title="Calidad 2"
+            icon={
+              "https://www.gigantografiaswilson.com/wp-content/uploads/2023/06/1ca.png"
+            }
+            isImgLeft
           />
-        </div>
-        <div className={styles.wrapper}>
-          <img
-            className={styles.img}
-            src="https://www.gigantografiaswilson.com/wp-content/uploads/2023/06/1ca.png"
-            alt=""
-          />
-          <div>
-            <Title className="pb-5" level="3">
-              Calidad
-            </Title>
-            <Text as="p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum id
-              odio animi nihil, aut cumque beatae esse. Non repellat libero a
-              facere, quas soluta dolor? Quidem aut ducimus asperiores?
-              Vero?Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-              magni omnis autem! A rerum adipisci quae distinctio eos blanditiis
-              eum velit voluptatum dignissimos sit? Voluptatibus labore enim
-              unde? Quia, modi!Lorem
-            </Text>
-          </div>
-          <img
-            src="https://www.gigantografiaswilson.com/wp-content/uploads/2023/06/imagen-de-portada-de-calidad.png"
-            alt=""
-          />
-        </div>
-        <div className={styles.wrapper}>
-          <img
-            className={styles.img}
-            src="https://www.gigantografiaswilson.com/wp-content/uploads/2023/06/1ca.png"
-            alt=""
-          />
-          <div>
-            <Title className="pb-5" level="3">
-              Calidad
-            </Title>
-            <Text as="p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum id
-              odio animi nihil, aut cumque beatae esse. Non repellat libero a
-              facere, quas soluta dolor? Quidem aut ducimus asperiores?
-              Vero?Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-              magni omnis autem! A rerum adipisci quae distinctio eos blanditiis
-              eum velit voluptatum dignissimos sit? Voluptatibus labore enim
-              unde? Quia, modi!Lorem
-            </Text>
-          </div>
-          <img
-            src="https://www.gigantografiaswilson.com/wp-content/uploads/2023/06/imagen-de-portada-de-calidad.png"
-            alt=""
+          <AboutUsCard
+            img="https://www.gigantografiaswilson.com/wp-content/uploads/2023/06/imagen-de-portada-de-calidad.png"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Donec Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Donec Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Donec"
+            title="Calidad 3"
+            icon={
+              "https://www.gigantografiaswilson.com/wp-content/uploads/2023/06/1ca.png"
+            }
           />
         </div>
       </Container>

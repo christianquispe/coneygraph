@@ -2,10 +2,20 @@
   @apply py-20;
 }
 
-.img {
+.icon {
   @apply w-20;
 }
 
+.wrapperList {
+  @apply flex flex-col gap-8; 
+}
+
 .wrapper {
-  @apply flex flex-col items-center text-[0.9rem] gap-10 pb-8 px-12 md:flex-row md:text-xl;
+  @apply flex flex-col items-start gap-1;
+  @apply lg:flex-row lg:items-center lg:gap-4;
+}
+
+.img {
+  @apply w-full max-w-[400px] self-center;
+  @apply lg:h-[400px] lg:w-[400px];
 }
