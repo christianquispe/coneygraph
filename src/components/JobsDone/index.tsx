@@ -31,7 +31,12 @@ export const jobsData = [
     type: "senhalitica d2222222222",
     link: "#",
   },
-
+ {
+    title: "roll Screen",
+    img: "/roll-screem.jpg",
+    type: "senhalitica 666666666",
+    link: "#",
+  },
   {
     title: "roll Screen",
     img: "/roll-screem.jpg",

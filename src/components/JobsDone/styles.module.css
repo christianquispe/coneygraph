@@ -1,19 +1,20 @@
 .titleJobsDone {
-  @apply text-center
+  @apply text-center;
 }
 
 .boxJobsDone {
-  @apply flex gap-8 flex-col
+  @apply flex gap-8 flex-col;
 }
 
 .publishedJobs {
-  @apply flex gap-4
+  @apply grid grid-cols-2 gap-7
+         md:grid-cols-3;
 }
 
 .imagesJobs {
-  @apply w-80
+  @apply w-80;
 }
 
 .cardsJobsDone {
-  @apply flex text-center items-center flex-col gap-4
+  @apply flex text-center items-center flex-col gap-4;
 }
