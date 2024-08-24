@@ -12,7 +12,7 @@ export default function Home() {
    <CategoriesSlides />
    <ProductsSection />
    <AboutUs/>
-   {/* <JobsDone/> */}
+   <JobsDone/>
    <Catalog/>
   </main>
  );

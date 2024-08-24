@@ -22,3 +22,16 @@
   @apply w-full max-w-[400px] self-center;
   @apply lg:h-[400px] lg:w-[400px];
 }
+.wrapperList {
+  @apply flex flex-col gap-8;
+}
+
+.wrapper {
+  @apply flex flex-col items-start gap-1;
+  @apply lg:flex-row lg:items-center lg:gap-4;
+}
+
+.img {
+  @apply w-full max-w-[400px] self-center;
+  @apply lg:h-[400px] lg:w-[400px];
+}
