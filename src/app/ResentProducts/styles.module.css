@@ -1,0 +1,4 @@
+.productsContainer {
+    @apply grid grid-cols-2 gap-7 py-10
+           md:grid-cols-4
+}
