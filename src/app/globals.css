@@ -17,5 +17,5 @@
 } */
 
 body {
-  @apply text-black bg-white;
+  @apply text-black bg-white ;
 }
