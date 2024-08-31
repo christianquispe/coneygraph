@@ -1,3 +1,8 @@
 .cardServices {
     @apply flex flex-col items-start gap-6 border-2 rounded-[25px] border-[#ececec] p-5 pb-20 mx-4 text-[#999]
 }
+
+.cardsSection {
+    @apply grid gap-7 pb-8
+    md:grid-cols-4 gap-y-10 gap-x-0
+}

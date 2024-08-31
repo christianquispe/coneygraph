@@ -19,14 +19,12 @@ const ServicesCard: React.FC<servicesCardProps> = (props) => {
     <div className={styles.cardServices}>
       <img className="w-20" src={props.icon} alt="" />
       <div>
-        <div className="text-[1.3rem] font-bold">
-        {props.title}
-        </div>
-      <div>{props.description}</div>
+        <div className="text-[1.3rem] font-bold">{props.title}</div>
+        <div>{props.description}</div>
       </div>
       <div className="flex items-center">
-      <Link href={"#"}>Mas informacion</Link>
-            <icon.ArrowRight/>
+        <Link href={"#"}>Mas informacion</Link>
+        <icon.ArrowRight />
       </div>
     </div>
   );
@@ -37,10 +35,70 @@ export default function OurServices() {
     <section>
       <Container>
         <div>
-          <Title className="text-center pb-8" level="2">SERVICIOS QUE OFRECEMOS</Title>
+          <Title className="text-center pb-8" level="2">
+            SERVICIOS QUE OFRECEMOS
+          </Title>
         </div>
-        <div>
-          <ServicesCard icon="https://cdn.icon-icons.com/icons2/2566/PNG/512/search_small_icon_153439.png" title="HOla" description="senhales de vinil adhesivo"
+        <div className={styles.cardsSection}>
+          <ServicesCard
+            icon="https://cdn.icon-icons.com/icons2/2566/PNG/512/search_small_icon_153439.png"
+            title="HOla"
+            description="senhales de vinil adhesivo"
+          />
+          <ServicesCard
+            icon="https://cdn.icon-icons.com/icons2/2566/PNG/512/search_small_icon_153439.png"
+            title="HOla"
+            description="senhales de vinil adhesivo"
+          />
+          <ServicesCard
+            icon="https://cdn.icon-icons.com/icons2/2566/PNG/512/search_small_icon_153439.png"
+            title="HOla"
+            description="senhales de vinil adhesivo"
+          />
+          <ServicesCard
+            icon="https://cdn.icon-icons.com/icons2/2566/PNG/512/search_small_icon_153439.png"
+            title="HOla"
+            description="senhales de vinil adhesivo"
+          />
+          <ServicesCard
+            icon="https://cdn.icon-icons.com/icons2/2566/PNG/512/search_small_icon_153439.png"
+            title="HOla"
+            description="senhales de vinil adhesivo"
+          />
+          <ServicesCard
+            icon="https://cdn.icon-icons.com/icons2/2566/PNG/512/search_small_icon_153439.png"
+            title="HOla"
+            description="senhales de vinil adhesivo"
+          />
+          <ServicesCard
+            icon="https://cdn.icon-icons.com/icons2/2566/PNG/512/search_small_icon_153439.png"
+            title="HOla"
+            description="senhales de vinil adhesivo"
+          />
+          <ServicesCard
+            icon="https://cdn.icon-icons.com/icons2/2566/PNG/512/search_small_icon_153439.png"
+            title="HOla"
+            description="senhales de vinil adhesivo"
+          />
+          <ServicesCard
+            icon="https://cdn.icon-icons.com/icons2/2566/PNG/512/search_small_icon_153439.png"
+            title="HOla"
+            description="senhales de vinil adhesivo"
+          />
+          <ServicesCard
+            icon="https://cdn.icon-icons.com/icons2/2566/PNG/512/search_small_icon_153439.png"
+            title="HOla"
+            description="senhales de vinil adhesivo"
+          />
+          <ServicesCard
+            icon="https://cdn.icon-icons.com/icons2/2566/PNG/512/search_small_icon_153439.png"
+            title="HOla"
+            description="senhales de vinil adhesivo"
+          />
+          <ServicesCard
+            icon="https://cdn.icon-icons.com/icons2/2566/PNG/512/search_small_icon_153439.png"
+            title="HOla"
+            description="senhales de vinil adhesivo"
           />
         </div>
       </Container>
