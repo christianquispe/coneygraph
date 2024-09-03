@@ -17,9 +17,9 @@ export interface servicesCardProps {
 const ServicesCard: React.FC<servicesCardProps> = (props) => {
   return (
     <div className={styles.cardServices}>
-      <img className="w-20" src={props.icon} alt="" />
+        <icon.Eye className={styles.icon}/>
       <div>
-        <div className="text-[1.3rem] font-bold">{props.title}</div>
+        <div className={styles.titleCard}>{props.title}</div>
         <div>{props.description}</div>
       </div>
       <div className="flex items-center">

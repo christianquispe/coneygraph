@@ -1,8 +1,21 @@
 .cardServices {
+    border: solid;
     @apply flex flex-col items-start gap-6 border-2 rounded-[25px] border-[#ececec] p-5 pb-20 mx-4 text-[#999]
 }
 
 .cardsSection {
-    @apply grid gap-7 pb-8
+    @apply grid gap-7 pb-8 
     md:grid-cols-4 gap-y-10 gap-x-0
+}
+
+.icon {
+    @apply w-16 h-16
+}
+
+.titleCard {
+    @apply text-[1.3rem] font-bold
+}
+
+.cardServices:hover {
+    @apply text-[#c11ed7] border-x-[#c11ed7]  border-t-[#c11ed7] shadow-lg
 }
